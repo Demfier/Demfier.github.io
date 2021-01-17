@@ -69,6 +69,7 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 blog_name: demblogs  # your blog must have a name for it to show up in the nav bar
 blog_description: My personal writing space in the cloud
+blog_message: To be updated soon...
 permalink: /blog/:year/:title/
 
 # Pagination
