@@ -90,7 +90,8 @@ collections:
     output: true
     permalink: /projects/:path/
 
-news_limit: 5
+# uncomment the line below to set a limit on the number of news posts
+# news_limit: 5
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
