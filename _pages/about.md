@@ -17,7 +17,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student at the [NLP Lab](https://ov-research.uwaterloo.ca/NLP_lab.html){:target="\_blank"} of the [University of Waterloo](https://cs.uwaterloo.ca/){:target="\_blank"}, under [Prof. Olga Vechtomova](https://ov-research.uwaterloo.ca/){:target="\_blank"}.
+I am a Ph.D. student at the [NLP Lab](https://ov-research.uwaterloo.ca/NLP_lab.html){:target="\_blank"} of the [University of Waterloo](https://cs.uwaterloo.ca/){:target="\_blank"}, advised by [Prof. Olga Vechtomova](https://ov-research.uwaterloo.ca/){:target="\_blank"}.
 My research focuses on multimodal deep learning and generative text modelling.
 Currently, I am exploring ways to extract visual and auditory cues to generate better text.
 I am also interested in learning the dynamics of the shared multimodal latent space.
