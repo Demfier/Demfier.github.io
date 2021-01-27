@@ -53,6 +53,20 @@
     abstract = "Generating relevant responses in a dialog is challenging, and requires not only proper modeling of context in the conversation, but also being able to generate fluent sentences during inference. In this paper, we propose a two-step framework based on generative adversarial nets for generating conditioned responses. Our model first learns a meaningful representation of sentences by autoencoding, and then learns to map an input query to the response representation, which is in turn decoded as a response sentence. Both quantitative and qualitative evaluations show that our model generates more fluent, relevant, and diverse responses than existing state-of-the-art methods.",
 }
 
+@inproceedings{sahu-2021-adaptive,
+    abbr={EACL},
+    title = "Adaptive Fusion Techniques for Multimodal Data",
+    author = "Sahu, Gaurav  and
+      Vechtomova, Olga",
+    booktitle = "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics",
+    month = apr,
+    year = "2021",
+    address = "Kyiv, Ukraine (Online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://arxiv.org/pdf/1911.03821.pdf",
+    abstract = "Effective fusion of data from multiple modal-ities, such as video, speech, and text, is chal-lenging  due  to  the  heterogeneous  nature  ofmultimodal  data.   In  this  paper,  we  proposeadaptive fusion techniques that aim to modelcontext  from  different  modalities  effectively.Instead of defining a deterministic fusion oper-ation, such as concatenation, for the network,we let the network decide “how” to combine agiven  set  of  multimodal  features  more  effec-tively.   We  propose  two  networks:   1)  Auto-Fusion, which learns to compress informationfrom different modalities while preserving thecontext,  and  2)  GAN-Fusion,  which  regular-izes  the  learned  latent  space  given  contextfrom complementing modalities.   A quantita-tive evaluation on the tasks of multimodal ma-chine translation and emotion recognition sug-gests that our lightweight,  adaptive networkscan better model context from other modalitiesthan existing methods, many of which employmassive transformer-based networks.",
+}
+
 @inproceedings{vechtomova-etal-2020-generation,
     abbr={ISMIR},
     title = "Generation of lyrics lines conditioned on music audio clips",
