@@ -131,6 +131,9 @@
     {% if entry.website %}
       <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
     {% endif %}
+    {% if entry.bib %}
+      <a href="{{ entry.bib | prepend: '/assets/bibliography/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">BibTeX</a>
+    {% endif %}
     </div>
 
     <!-- Hidden abstract block -->
