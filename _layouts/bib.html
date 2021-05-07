@@ -17,7 +17,11 @@
       {{reference}}
     {% else %}
       <div class="title">
-        {{entry.title}}
+        {% if entry.url %}
+          <a href="{{ entry.url }}" target="_blank">{{ entry.title }}</a>
+        {% else %}
+          {{entry.title}}
+        {% endif %}
       </div>
       <div class="author">
         {% for author in entry.author_array %}
